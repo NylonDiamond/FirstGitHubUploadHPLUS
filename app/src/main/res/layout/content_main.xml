@@ -44,4 +44,11 @@
         android:layout_marginTop="10dp"
         android:src="@drawable/jacket101"/>
 
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_above="@+id/photo"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
